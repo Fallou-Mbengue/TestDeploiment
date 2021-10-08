@@ -75,6 +75,6 @@ class __TwigTemplate_ee53154ca772da0afa72bf294451b448199a94bf9d1fc121ddf5f8fe283
     <polygon fill=\"#AAA\" points=\"18 8.5 24 8.5 24 15.5 19.5 15.5\" />
     <polygon fill=\"#AAA\" points=\"0 17 6.5 17 7.5 21 8.5 17 13 17 12 21 21 21 20 17 24 17 24 24 0 24\" />
 </svg>
-", "@DoctrineMigrations/Collector/icon.svg", "/Applications/XAMPP/xamppfiles/htdocs/medis/vendor/doctrine/doctrine-migrations-bundle/Resources/views/Collector/icon.svg");
+", "@DoctrineMigrations/Collector/icon.svg", "/Users/retina/Desktop/Github/git/TestDeploiment/vendor/doctrine/doctrine-migrations-bundle/Resources/views/Collector/icon.svg");
     }
 }

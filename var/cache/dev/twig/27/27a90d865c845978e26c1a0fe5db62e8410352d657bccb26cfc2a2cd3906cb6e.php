@@ -226,6 +226,6 @@ class {{ dashboard_controller_class }} extends AbstractDashboardController
 }
     </pre>
 {% endblock %}
-", "@EasyAdmin/welcome.html.twig", "/Applications/XAMPP/xamppfiles/htdocs/medis/vendor/easycorp/easyadmin-bundle/src/Resources/views/welcome.html.twig");
+", "@EasyAdmin/welcome.html.twig", "/Users/retina/Desktop/Github/git/TestDeploiment/vendor/easycorp/easyadmin-bundle/src/Resources/views/welcome.html.twig");
     }
 }

@@ -93,6 +93,6 @@ class __TwigTemplate_de41170483c9966d90eaff63fbdee67cee8280f11251baff7e338310000
 {% if field.customOptions.get('showValue') %}
     {{ field.formattedValue }}
 {% endif %}
-", "@EasyAdmin/crud/field/color.html.twig", "/Applications/XAMPP/xamppfiles/htdocs/medis/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/field/color.html.twig");
+", "@EasyAdmin/crud/field/color.html.twig", "/Users/retina/Desktop/Github/git/TestDeploiment/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/field/color.html.twig");
     }
 }

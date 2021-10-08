@@ -77,6 +77,6 @@ class __TwigTemplate_c1d4e581e3885129f1396966f597838f9571fc5665ab762caaf341e221b
 {# @var field \\EasyCorp\\Bundle\\EasyAdminBundle\\Dto\\FieldDto #}
 {# @var entity \\EasyCorp\\Bundle\\EasyAdminBundle\\Dto\\EntityDto #}
 <time datetime=\"{{ field.value|date('c') }}\" title=\"{{ field.value|date('r') }}\">{{ field.formattedValue }}</time>
-", "@EasyAdmin/crud/field/date.html.twig", "/Applications/XAMPP/xamppfiles/htdocs/medis/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/field/date.html.twig");
+", "@EasyAdmin/crud/field/date.html.twig", "/Users/retina/Desktop/Github/git/TestDeploiment/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/field/date.html.twig");
     }
 }

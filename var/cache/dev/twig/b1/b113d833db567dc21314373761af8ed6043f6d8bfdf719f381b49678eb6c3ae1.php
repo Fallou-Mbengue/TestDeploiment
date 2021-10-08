@@ -81,6 +81,6 @@ class __TwigTemplate_251359ec24242f00d6035c1a0a2d2fead27718482ccf777a0ec9b0616ed
 <span class=\"badge badge-danger\" title=\"{{ 'label.inaccessible.explanation'|trans }}\">
     {{ 'label.inaccessible'|trans }}
 </span>
-", "@EasyAdmin/label/inaccessible.html.twig", "/Applications/XAMPP/xamppfiles/htdocs/medis/vendor/easycorp/easyadmin-bundle/src/Resources/views/label/inaccessible.html.twig");
+", "@EasyAdmin/label/inaccessible.html.twig", "/Users/retina/Desktop/Github/git/TestDeploiment/vendor/easycorp/easyadmin-bundle/src/Resources/views/label/inaccessible.html.twig");
     }
 }

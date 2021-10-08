@@ -72,6 +72,6 @@ class __TwigTemplate_ece5bbf25a2db0d6ff8438f840e551d9b181926eb0fbeedf6156b196a11
 {# @var field \\EasyCorp\\Bundle\\EasyAdminBundle\\Dto\\FieldDto #}
 {# @var entity \\EasyCorp\\Bundle\\EasyAdminBundle\\Dto\\EntityDto #}
 {{ field.formattedValue }}
-", "@EasyAdmin/crud/field/generic.html.twig", "/Applications/XAMPP/xamppfiles/htdocs/medis/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/field/generic.html.twig");
+", "@EasyAdmin/crud/field/generic.html.twig", "/Users/retina/Desktop/Github/git/TestDeploiment/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/field/generic.html.twig");
     }
 }

@@ -145,6 +145,6 @@ class __TwigTemplate_d1749d03fde467c27a9d9c0c04d8cc7be51476064c1e185f8003bacdace
         <img src=\"{{ asset(image) }}\">
     </div>
 {% endfor %}
-", "@EasyAdmin/crud/field/image.html.twig", "/Applications/XAMPP/xamppfiles/htdocs/medis/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/field/image.html.twig");
+", "@EasyAdmin/crud/field/image.html.twig", "/Users/retina/Desktop/Github/git/TestDeploiment/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/field/image.html.twig");
     }
 }

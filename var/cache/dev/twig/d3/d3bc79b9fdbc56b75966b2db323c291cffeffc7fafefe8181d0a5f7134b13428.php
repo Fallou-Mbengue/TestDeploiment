@@ -90,6 +90,6 @@ class __TwigTemplate_50b8fcef8fa6a83341ee45351622d08f2d4a665c51674b67e38624850db
 {% else %}
     <a href=\"mailto:{{ field.value }}\">{{ field.formattedValue }}</a>
 {% endif %}
-", "@EasyAdmin/crud/field/email.html.twig", "/Applications/XAMPP/xamppfiles/htdocs/medis/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/field/email.html.twig");
+", "@EasyAdmin/crud/field/email.html.twig", "/Users/retina/Desktop/Github/git/TestDeploiment/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/field/email.html.twig");
     }
 }

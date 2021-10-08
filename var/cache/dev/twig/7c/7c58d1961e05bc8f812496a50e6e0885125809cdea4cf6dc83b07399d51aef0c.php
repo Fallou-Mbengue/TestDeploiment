@@ -300,6 +300,6 @@ class __TwigTemplate_1aefbe7c4c53bd2ebaaa5c01271aed6bb151dae48f3900fe0a45e880f15
 \t</div>
     
 {% endblock %}
-", "admin_patient/index.html.twig", "/Applications/XAMPP/xamppfiles/htdocs/medis/templates/admin_patient/index.html.twig");
+", "admin_patient/index.html.twig", "/Users/retina/Desktop/Github/git/TestDeploiment/templates/admin_patient/index.html.twig");
     }
 }

@@ -278,6 +278,6 @@ class __TwigTemplate_a8dc26a53e99b6ad76ee6f4166be81be7942525fa5a4d06ac56ca0cab01
 \t\t</div>
 \t</section>
 {% endblock %}
-", "registration/register.html.twig", "/Applications/XAMPP/xamppfiles/htdocs/medis/templates/registration/register.html.twig");
+", "registration/register.html.twig", "/Users/retina/Desktop/Github/git/TestDeploiment/templates/registration/register.html.twig");
     }
 }

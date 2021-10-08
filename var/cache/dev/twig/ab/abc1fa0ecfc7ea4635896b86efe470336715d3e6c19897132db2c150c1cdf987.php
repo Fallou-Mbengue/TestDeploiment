@@ -155,6 +155,6 @@ class __TwigTemplate_20bc6d0efbded056c4ea44c9d99e8a3ea09bc778e41f74a92cbb1d20f0d
 {% block panel %}
     {{ render(controller('web_profiler.controller.router::panelAction', { token: token })) }}
 {% endblock %}
-", "@WebProfiler/Collector/router.html.twig", "/Applications/XAMPP/xamppfiles/htdocs/medis/vendor/symfony/web-profiler-bundle/Resources/views/Collector/router.html.twig");
+", "@WebProfiler/Collector/router.html.twig", "/Users/retina/Desktop/Github/git/TestDeploiment/vendor/symfony/web-profiler-bundle/Resources/views/Collector/router.html.twig");
     }
 }

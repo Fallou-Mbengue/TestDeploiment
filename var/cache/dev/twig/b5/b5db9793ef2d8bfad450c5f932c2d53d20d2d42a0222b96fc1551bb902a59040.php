@@ -120,6 +120,6 @@ class __TwigTemplate_a5ed8892492dd9afbd8bae1f446cddd41de4f033e9dabadc3a8ea5e6e1b
         <label class=\"form-check-label\" for=\"{{ field.uniqueId }}\"></label>
     </div>
 {% endif %}
-", "@EasyAdmin/crud/field/boolean.html.twig", "/Applications/XAMPP/xamppfiles/htdocs/medis/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/field/boolean.html.twig");
+", "@EasyAdmin/crud/field/boolean.html.twig", "/Users/retina/Desktop/Github/git/TestDeploiment/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/field/boolean.html.twig");
     }
 }

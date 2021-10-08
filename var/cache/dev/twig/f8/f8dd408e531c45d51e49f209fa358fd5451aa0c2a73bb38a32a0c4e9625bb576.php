@@ -144,7 +144,7 @@ class __TwigTemplate_3ac6a8a2b5f5f286867c5eb6711b4dd94cad24c2d4d6573ad208166318d
 \t\t\tFeatured
 \t\t</div>
 \t\t<div class=\"card-body\">
-\t\t\t<h3 class=\"card-title\">Information Patient</h3>
+\t\t\t<h3 class=\"card-title\">Informations Patient</h3>
 \t\t\t<p class=\"card-text\">With supporting text below as a natural lead-in to additional content.</p>
 \t\t\t<ul class=\"list-group list-group-flush\">
 \t\t\t\t<li class=\"list-group-item\">Prénom :";
@@ -346,7 +346,7 @@ class __TwigTemplate_3ac6a8a2b5f5f286867c5eb6711b4dd94cad24c2d4d6573ad208166318d
 \t\t\tFeatured
 \t\t</div>
 \t\t<div class=\"card-body\">
-\t\t\t<h3 class=\"card-title\">Information Patient</h3>
+\t\t\t<h3 class=\"card-title\">Informations Patient</h3>
 \t\t\t<p class=\"card-text\">With supporting text below as a natural lead-in to additional content.</p>
 \t\t\t<ul class=\"list-group list-group-flush\">
 \t\t\t\t<li class=\"list-group-item\">Prénom :{{patient.prenom}}
@@ -403,6 +403,6 @@ class __TwigTemplate_3ac6a8a2b5f5f286867c5eb6711b4dd94cad24c2d4d6573ad208166318d
 \t\t<i class=\"fas fa-trash\"></i>
 \t</a>
 </div></div></div></div>{% endfor %}</div></section>{% endblock %}
-", "admin_patient/view.html.twig", "/Applications/XAMPP/xamppfiles/htdocs/medis/templates/admin_patient/view.html.twig");
+", "admin_patient/view.html.twig", "/Users/retina/Desktop/Github/git/TestDeploiment/templates/admin_patient/view.html.twig");
     }
 }

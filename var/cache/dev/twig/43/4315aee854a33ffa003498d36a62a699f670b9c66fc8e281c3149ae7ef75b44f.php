@@ -90,6 +90,6 @@ class __TwigTemplate_0f831c6ffc1db0fbf43b0c83a294a38c364e597b2fef34b7719b8ca2c62
 {% else %}
     <span title=\"{{ field.value }}\">{{ field.formattedValue|raw }}</span>
 {% endif %}
-", "@EasyAdmin/crud/field/text.html.twig", "/Applications/XAMPP/xamppfiles/htdocs/medis/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/field/text.html.twig");
+", "@EasyAdmin/crud/field/text.html.twig", "/Users/retina/Desktop/Github/git/TestDeploiment/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/field/text.html.twig");
     }
 }
