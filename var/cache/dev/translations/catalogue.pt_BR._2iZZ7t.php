@@ -247,6 +247,8 @@ $catalogue = new MessageCatalogue('pt_BR', array (
     'exception.entity_remove' => 'Esse item não pode ser excluído porque outros itens dependem dele.',
     'exception.forbidden_action' => 'A ação requisitada não pode ser executada nesse item.',
     'exception.insufficient_entity_permission' => 'Você não possui permissão para acessar este item.',
+    'autocomplete.no-results-found' => 'Nenhum resultado encontrado',
+    'autocomplete.loading-more-results' => 'Carregando mais resultados…',
   ),
 ));
 
@@ -486,6 +488,8 @@ $cataloguePt = new MessageCatalogue('pt', array (
     'exception.entity_not_found' => 'Este item não está mais disponível.',
     'exception.entity_remove' => 'Esse item não pode ser excluído porque outros itens dependem dele.',
     'exception.forbidden_action' => 'A ação requisitada não pode ser executada nesse item.',
+    'autocomplete.no-results-found' => 'Sem resultados',
+    'autocomplete.loading-more-results' => 'A carregar mais resultados…',
   ),
 ));
 $catalogue->addFallbackCatalogue($cataloguePt);
@@ -742,6 +746,9 @@ $catalogueEn = new MessageCatalogue('en', array (
     'exception.entity_remove' => 'This item can\'t be deleted because other items depend on it.',
     'exception.forbidden_action' => 'The requested action can\'t be performed on this item.',
     'exception.insufficient_entity_permission' => 'You don\'t have permission to access this item.',
+    'autocomplete.no-results-found' => 'No results found',
+    'autocomplete.no-more-results' => 'No more results',
+    'autocomplete.loading-more-results' => 'Loading more results…',
   ),
 ));
 $cataloguePt->addFallbackCatalogue($catalogueEn);

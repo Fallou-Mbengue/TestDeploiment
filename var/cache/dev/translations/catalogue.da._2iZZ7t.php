@@ -130,7 +130,7 @@ $catalogue = new MessageCatalogue('da', array (
     'Please enter a valid search term.' => 'Indtast venligst et gyldigt søgeord.',
     'Please provide a valid phone number.' => 'Giv venligst et gyldigt telefonnummer.',
     'The checkbox has an invalid value.' => 'Checkboxen har en ugyldigt værdi.',
-    'Please enter a valid email address.' => 'Indtast venligst en gyldig emailaddresse.',
+    'Please enter a valid email address.' => 'Indtast venligst en gyldig e-mailadresse.',
     'Please select a valid option.' => 'Vælg venligst en gyldig mulighed.',
     'Please select a valid range.' => 'Vælg venligst et gyldigt interval .',
     'Please enter a valid week.' => 'Indtast venligst en gyldig uge.',
@@ -243,6 +243,8 @@ $catalogue = new MessageCatalogue('da', array (
     'exception.entity_remove' => 'Dette element kan ikke slettes, da der er andre elementer der er afhængige af det.',
     'exception.forbidden_action' => 'Denne handling kan ikke udføres på dette element.',
     'exception.insufficient_entity_permission' => 'Du har ikke tilladelse til at tilgå dette element.',
+    'autocomplete.no-results-found' => 'Ingen resultater fundet',
+    'autocomplete.loading-more-results' => 'Indlæser flere resultater…',
   ),
 ));
 
@@ -499,6 +501,9 @@ $catalogueEn = new MessageCatalogue('en', array (
     'exception.entity_remove' => 'This item can\'t be deleted because other items depend on it.',
     'exception.forbidden_action' => 'The requested action can\'t be performed on this item.',
     'exception.insufficient_entity_permission' => 'You don\'t have permission to access this item.',
+    'autocomplete.no-results-found' => 'No results found',
+    'autocomplete.no-more-results' => 'No more results',
+    'autocomplete.loading-more-results' => 'Loading more results…',
   ),
 ));
 $catalogue->addFallbackCatalogue($catalogueEn);

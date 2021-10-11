@@ -101,6 +101,7 @@ $catalogue = new MessageCatalogue('tr', array (
     'This value should satisfy at least one of the following constraints:' => 'Bu değer aşağıdaki kısıtlamalardan birini karşılamalıdır:',
     'Each element of this collection should satisfy its own set of constraints.' => 'Bu gruptaki her öğe kendi kısıtlamalarını karşılamalıdır.',
     'This value is not a valid International Securities Identification Number (ISIN).' => 'Bu değer geçerli bir Uluslararası Menkul Kıymetler Kimlik Numarası değil (ISIN).',
+    'This value should be a valid expression.' => 'Bu değer geçerli bir ifade olmalıdır.',
     'This form should not contain extra fields.' => 'Form ekstra alanlar içeremez.',
     'The uploaded file was too large. Please try to upload a smaller file.' => 'Yüklenen dosya boyutu çok yüksek. Lütfen daha küçük bir dosya yüklemeyi deneyin.',
     'The CSRF token is invalid. Please try to resubmit the form.' => 'CSRF fişi geçersiz. Formu tekrar göndermeyi deneyin.',
@@ -253,6 +254,8 @@ $catalogue = new MessageCatalogue('tr', array (
     'exception.entity_remove' => 'Diğer öğeler buna bağlı olduğu için bu öğe silinemiyor.',
     'exception.forbidden_action' => 'İstenen eylem bu öğe üzerinde gerçekleştirilemez.',
     'exception.insufficient_entity_permission' => 'Bu öğeye erişim izniniz yok.',
+    'autocomplete.no-results-found' => 'Sonuç bulunamadı',
+    'autocomplete.loading-more-results' => 'Daha fazla…',
   ),
 ));
 
@@ -509,6 +512,9 @@ $catalogueEn = new MessageCatalogue('en', array (
     'exception.entity_remove' => 'This item can\'t be deleted because other items depend on it.',
     'exception.forbidden_action' => 'The requested action can\'t be performed on this item.',
     'exception.insufficient_entity_permission' => 'You don\'t have permission to access this item.',
+    'autocomplete.no-results-found' => 'No results found',
+    'autocomplete.no-more-results' => 'No more results',
+    'autocomplete.loading-more-results' => 'Loading more results…',
   ),
 ));
 $catalogue->addFallbackCatalogue($catalogueEn);

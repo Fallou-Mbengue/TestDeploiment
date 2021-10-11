@@ -196,7 +196,7 @@ $catalogue = new MessageCatalogue('fr', array (
     'action.entity_actions' => 'Actions',
     'action.new' => 'Créer %entity_label_singular%',
     'action.search' => 'Rechercher',
-    'action.detail' => 'Voir',
+    'action.detail' => 'Consulter',
     'action.edit' => 'Éditer',
     'action.delete' => 'Supprimer',
     'action.cancel' => 'Annuler',
@@ -255,6 +255,9 @@ $catalogue = new MessageCatalogue('fr', array (
     'exception.entity_remove' => 'Cet élément ne peut être supprimé car d\'autres éléments en dépendent.',
     'exception.forbidden_action' => 'L\'action demandée ne peut être exécutée sur cet élément.',
     'exception.insufficient_entity_permission' => 'Vous n\'êtes pas autorisé à accéder à cet élément.',
+    'autocomplete.no-results-found' => 'Aucun résultat trouvé',
+    'autocomplete.no-more-results' => 'Aucun autre résultat trouvé',
+    'autocomplete.loading-more-results' => 'Chargement de résultats supplémentaires…',
   ),
 ));
 
@@ -511,6 +514,9 @@ $catalogueEn = new MessageCatalogue('en', array (
     'exception.entity_remove' => 'This item can\'t be deleted because other items depend on it.',
     'exception.forbidden_action' => 'The requested action can\'t be performed on this item.',
     'exception.insufficient_entity_permission' => 'You don\'t have permission to access this item.',
+    'autocomplete.no-results-found' => 'No results found',
+    'autocomplete.no-more-results' => 'No more results',
+    'autocomplete.loading-more-results' => 'Loading more results…',
   ),
 ));
 $catalogue->addFallbackCatalogue($catalogueEn);

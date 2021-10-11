@@ -247,6 +247,8 @@ $catalogue = new MessageCatalogue('zh_CN', array (
     'exception.entity_remove' => '该条记录不可删除，因为有其他记录依赖该条记录。',
     'exception.forbidden_action' => '无权执行该操作',
     'exception.insufficient_entity_permission' => '你没有权限访问该条记录',
+    'autocomplete.no-results-found' => '未找到结果',
+    'autocomplete.loading-more-results' => '载入更多结果…',
   ),
 ));
 
@@ -506,6 +508,9 @@ $catalogueEn = new MessageCatalogue('en', array (
     'exception.entity_remove' => 'This item can\'t be deleted because other items depend on it.',
     'exception.forbidden_action' => 'The requested action can\'t be performed on this item.',
     'exception.insufficient_entity_permission' => 'You don\'t have permission to access this item.',
+    'autocomplete.no-results-found' => 'No results found',
+    'autocomplete.no-more-results' => 'No more results',
+    'autocomplete.loading-more-results' => 'Loading more results…',
   ),
 ));
 $catalogueZh->addFallbackCatalogue($catalogueEn);

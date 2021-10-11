@@ -247,6 +247,8 @@ $catalogue = new MessageCatalogue('hu', array (
     'exception.entity_remove' => 'Ez az elem nem törölhető más kapcsolódó adatok miatt.',
     'exception.forbidden_action' => 'A kért művelet nem hajtható végre ezen az elemen.',
     'exception.insufficient_entity_permission' => 'Nincs megfelelő jogosultsága az elemhez.',
+    'autocomplete.no-results-found' => 'Nincs találat',
+    'autocomplete.loading-more-results' => 'Töltés…',
   ),
 ));
 
@@ -503,6 +505,9 @@ $catalogueEn = new MessageCatalogue('en', array (
     'exception.entity_remove' => 'This item can\'t be deleted because other items depend on it.',
     'exception.forbidden_action' => 'The requested action can\'t be performed on this item.',
     'exception.insufficient_entity_permission' => 'You don\'t have permission to access this item.',
+    'autocomplete.no-results-found' => 'No results found',
+    'autocomplete.no-more-results' => 'No more results',
+    'autocomplete.loading-more-results' => 'Loading more results…',
   ),
 ));
 $catalogue->addFallbackCatalogue($catalogueEn);

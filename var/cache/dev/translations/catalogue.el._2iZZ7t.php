@@ -204,6 +204,8 @@ $catalogue = new MessageCatalogue('el', array (
     'exception.entity_not_found' => 'Αυτό το αντικείμενο δεν είναι πλέον διαθέσιμο.',
     'exception.entity_remove' => 'Το αντικείμενο δεν είναι δυνατόν να διαγραφεί διότη υπάρχουν αντικείμενο που βασίζονται σε αυτό.',
     'exception.forbidden_action' => 'Η ενέργεια αυτή είναι αδύνατον να εφαρμοστεί σε αυτό το αντικείμενο.',
+    'autocomplete.no-results-found' => 'Δεν βρέθηκαν αποτελέσματα',
+    'autocomplete.loading-more-results' => 'Φόρτωση περισσότερων αποτελεσμάτων…',
   ),
 ));
 
@@ -460,6 +462,9 @@ $catalogueEn = new MessageCatalogue('en', array (
     'exception.entity_remove' => 'This item can\'t be deleted because other items depend on it.',
     'exception.forbidden_action' => 'The requested action can\'t be performed on this item.',
     'exception.insufficient_entity_permission' => 'You don\'t have permission to access this item.',
+    'autocomplete.no-results-found' => 'No results found',
+    'autocomplete.no-more-results' => 'No more results',
+    'autocomplete.loading-more-results' => 'Loading more results…',
   ),
 ));
 $catalogue->addFallbackCatalogue($catalogueEn);

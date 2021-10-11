@@ -101,6 +101,7 @@ $catalogue = new MessageCatalogue('ro', array (
     'This value should satisfy at least one of the following constraints:' => 'Această valoare trebuie să îndeplinească cel puțin una dintre următoarele reguli:',
     'Each element of this collection should satisfy its own set of constraints.' => 'Fiecare element din acest set ar trebui să îndeplinească propriul set de reguli.',
     'This value is not a valid International Securities Identification Number (ISIN).' => 'Această valoare nu este un număr internațional de identificare (ISIN) valabil.',
+    'This value should be a valid expression.' => 'Această valoare ar trebui să fie o expresie validă.',
     'This form should not contain extra fields.' => 'Acest formular nu ar trebui să conțină câmpuri suplimentare.',
     'The uploaded file was too large. Please try to upload a smaller file.' => 'Fișierul încărcat a fost prea mare. Vă rugăm sa încărcați un fișier mai mic.',
     'The CSRF token is invalid. Please try to resubmit the form.' => 'Token-ul CSRF este invalid. Vă rugăm să retrimiteți formularul.',
@@ -246,6 +247,8 @@ $catalogue = new MessageCatalogue('ro', array (
     'exception.entity_remove' => 'Acest item nu poate fi șters deoarece alte iteme depind de acesta.',
     'exception.forbidden_action' => 'Acțiunea solicitată nu poate fi efectuată asupra acestui item.',
     'exception.insufficient_entity_permission' => 'Nu sunteți autorizat să accesați acest item.',
+    'autocomplete.no-results-found' => 'Nu au fost găsite rezultate',
+    'autocomplete.loading-more-results' => 'Se încarcă mai multe rezultate…',
   ),
 ));
 
@@ -502,6 +505,9 @@ $catalogueEn = new MessageCatalogue('en', array (
     'exception.entity_remove' => 'This item can\'t be deleted because other items depend on it.',
     'exception.forbidden_action' => 'The requested action can\'t be performed on this item.',
     'exception.insufficient_entity_permission' => 'You don\'t have permission to access this item.',
+    'autocomplete.no-results-found' => 'No results found',
+    'autocomplete.no-more-results' => 'No more results',
+    'autocomplete.loading-more-results' => 'Loading more results…',
   ),
 ));
 $catalogue->addFallbackCatalogue($catalogueEn);

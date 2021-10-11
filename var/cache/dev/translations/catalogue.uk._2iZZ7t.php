@@ -255,6 +255,8 @@ $catalogue = new MessageCatalogue('uk', array (
     'exception.entity_remove' => 'Цей елемент не можна видалити, оскільки від нього залежать інші елементи.',
     'exception.forbidden_action' => 'Дія не може бути виконана над цим елементом.',
     'exception.insufficient_entity_permission' => 'У вас немає дозволу на доступ до цього елемента.',
+    'autocomplete.no-results-found' => 'Нічого не знайдено',
+    'autocomplete.loading-more-results' => 'Завантаження інших результатів…',
   ),
 ));
 
@@ -511,6 +513,9 @@ $catalogueEn = new MessageCatalogue('en', array (
     'exception.entity_remove' => 'This item can\'t be deleted because other items depend on it.',
     'exception.forbidden_action' => 'The requested action can\'t be performed on this item.',
     'exception.insufficient_entity_permission' => 'You don\'t have permission to access this item.',
+    'autocomplete.no-results-found' => 'No results found',
+    'autocomplete.no-more-results' => 'No more results',
+    'autocomplete.loading-more-results' => 'Loading more results…',
   ),
 ));
 $catalogue->addFallbackCatalogue($catalogueEn);

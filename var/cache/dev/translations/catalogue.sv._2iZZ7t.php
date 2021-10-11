@@ -206,6 +206,8 @@ $catalogue = new MessageCatalogue('sv', array (
     'exception.entity_not_found' => 'Detta objekt är inte tillgängligt längre.',
     'exception.entity_remove' => 'Detta object kan inte tas bort för att andra objekt har ett beroende på det.',
     'exception.forbidden_action' => 'Den åtgärd du försökte göra kan inte utföras på detta objekt.',
+    'autocomplete.no-results-found' => 'Inga träffar',
+    'autocomplete.loading-more-results' => 'Laddar fler resultat…',
   ),
 ));
 
@@ -462,6 +464,9 @@ $catalogueEn = new MessageCatalogue('en', array (
     'exception.entity_remove' => 'This item can\'t be deleted because other items depend on it.',
     'exception.forbidden_action' => 'The requested action can\'t be performed on this item.',
     'exception.insufficient_entity_permission' => 'You don\'t have permission to access this item.',
+    'autocomplete.no-results-found' => 'No results found',
+    'autocomplete.no-more-results' => 'No more results',
+    'autocomplete.loading-more-results' => 'Loading more results…',
   ),
 ));
 $catalogue->addFallbackCatalogue($catalogueEn);
