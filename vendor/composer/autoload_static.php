@@ -2052,6 +2052,7 @@ class ComposerStaticInit0a1b4b7f9ebb28bc00f76c07b493446c
         'Egulias\\EmailValidator\\Result\\Reason\\DomainTooLong' => __DIR__ . '/..' . '/egulias/email-validator/src/Result/Reason/DomainTooLong.php',
         'Egulias\\EmailValidator\\Result\\Reason\\DotAtEnd' => __DIR__ . '/..' . '/egulias/email-validator/src/Result/Reason/DotAtEnd.php',
         'Egulias\\EmailValidator\\Result\\Reason\\DotAtStart' => __DIR__ . '/..' . '/egulias/email-validator/src/Result/Reason/DotAtStart.php',
+        'Egulias\\EmailValidator\\Result\\Reason\\EmptyReason' => __DIR__ . '/..' . '/egulias/email-validator/src/Result/Reason/EmptyReason.php',
         'Egulias\\EmailValidator\\Result\\Reason\\ExceptionFound' => __DIR__ . '/..' . '/egulias/email-validator/src/Result/Reason/ExceptionFound.php',
         'Egulias\\EmailValidator\\Result\\Reason\\ExpectingATEXT' => __DIR__ . '/..' . '/egulias/email-validator/src/Result/Reason/ExpectingATEXT.php',
         'Egulias\\EmailValidator\\Result\\Reason\\ExpectingCTEXT' => __DIR__ . '/..' . '/egulias/email-validator/src/Result/Reason/ExpectingCTEXT.php',

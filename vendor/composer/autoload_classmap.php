@@ -1435,6 +1435,7 @@ return array(
     'Egulias\\EmailValidator\\Result\\Reason\\DomainTooLong' => $vendorDir . '/egulias/email-validator/src/Result/Reason/DomainTooLong.php',
     'Egulias\\EmailValidator\\Result\\Reason\\DotAtEnd' => $vendorDir . '/egulias/email-validator/src/Result/Reason/DotAtEnd.php',
     'Egulias\\EmailValidator\\Result\\Reason\\DotAtStart' => $vendorDir . '/egulias/email-validator/src/Result/Reason/DotAtStart.php',
+    'Egulias\\EmailValidator\\Result\\Reason\\EmptyReason' => $vendorDir . '/egulias/email-validator/src/Result/Reason/EmptyReason.php',
     'Egulias\\EmailValidator\\Result\\Reason\\ExceptionFound' => $vendorDir . '/egulias/email-validator/src/Result/Reason/ExceptionFound.php',
     'Egulias\\EmailValidator\\Result\\Reason\\ExpectingATEXT' => $vendorDir . '/egulias/email-validator/src/Result/Reason/ExpectingATEXT.php',
     'Egulias\\EmailValidator\\Result\\Reason\\ExpectingCTEXT' => $vendorDir . '/egulias/email-validator/src/Result/Reason/ExpectingCTEXT.php',
