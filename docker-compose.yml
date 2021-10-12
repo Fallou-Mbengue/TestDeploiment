@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+     postgresql-container_test1:
+        image: postgres
+        environment: 
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: test2021
+          POSTGRES_DB: TestDeploiment
+        ports: [5432]  
